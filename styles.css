@@ -400,6 +400,12 @@ h3 span {
 }
 
 
+/* order section starts here */
+
+<section class="order" id="order">div.heading </section>
+/* order section ends here */
+
+
 /* media queries */
 
 @media (max-width: 991px) {
