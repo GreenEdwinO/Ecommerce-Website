@@ -92,14 +92,14 @@ header {
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    padding: 1.5rem 9%;
+    padding: 2rem 9%;
     box-shadow: 0 .5rem 1rem rgb(0, 0, 0, 0.1);
 }
 
 header .logo {
     font-size: 2.5rem;
     font-weight: bolder;
-    color: #131313;
+    color: black;
 }
 
 header .logo i {
@@ -376,7 +376,7 @@ h3 span {
     height: 12rem;
     width: 12rem;
     border-radius: 50%;
-    border: 1rem solid #fff;
+    border: .5rem solid #fff;
     margin-top: -8rem;
     object-fit: cover;
 }
@@ -482,7 +482,7 @@ h3 span {
     padding: 2.5rem 1rem;
     color: #fff;
     font-weight: normal;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .footer .credit span {
@@ -491,6 +491,48 @@ h3 span {
 
 
 /* footer section ends */
+
+
+/* scroll section */
+
+#scroll-top {
+    position: fixed;
+    top: -120%;
+    /*calc(100% - 12rem);*/
+    right: 2rem;
+    padding: .5rem 1.5rem;
+    font-size: 4rem;
+    background: var(--red);
+    color: #fff;
+    border-radius: .5rem;
+    transition: .1s linear;
+    z-index: 1000;
+}
+
+#scroll-top.active {
+    top: calc(100% - 12rem);
+}
+
+
+/* loader section  */
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.loader-container.fade-out {
+    top: -120%;
+    background-repeat: no-repeat;
+}
 
 
 /* media queries */
