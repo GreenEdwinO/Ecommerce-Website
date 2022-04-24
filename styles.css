@@ -169,8 +169,8 @@ header .navbar a:hover {
 }
 
 .home .content p {
-    font-size: 1.7rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 600;
     color: #131313;
     padding: 1rem 0;
 }
@@ -403,10 +403,11 @@ h3 span {
 .more {
     font-size: 1.4rem;
     font-weight: 700;
+    font-style: italic;
     margin-left: 60%;
     display: flex;
     padding-top: 1.5rem;
-    color: red;
+    color: rgb(110, 110, 216);
     justify-content: right;
 }
 
