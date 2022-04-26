@@ -48,11 +48,11 @@ Section {
 
 .btn {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     border: 0.2rem solid var(--red);
     color: var(--red);
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 650;
     border-radius: 0.5rem;
     position: relative;
@@ -494,7 +494,7 @@ h3 span {
     padding: 2.5rem 1rem;
     color: #fff;
     font-weight: normal;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .footer .credit span {
@@ -510,7 +510,6 @@ h3 span {
 #scroll-top {
     position: fixed;
     top: -120%;
-    /*calc(100% - 12rem);*/
     right: 2rem;
     padding: 0.5rem 1.5rem;
     font-size: 4rem;
