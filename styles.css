@@ -46,6 +46,11 @@ Section {
     color: var(--red);
 }
 
+.reveal {
+    font-size: 1.7rem;
+    color: blue;
+}
+
 .btn {
     display: inline-block;
     padding: 0.5rem 1.5rem;
@@ -499,6 +504,7 @@ h3 span {
 
 .footer .credit span {
     color: yellow;
+    text-transform: lowercase;
 }
 
 
