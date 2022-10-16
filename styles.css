@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
 :root {
     --red: #ff3838;
 }
@@ -105,6 +106,11 @@ header .logo {
     font-size: 2.5rem;
     font-weight: bolder;
     color: #666;
+    transition: transform 450ms;
+}
+
+header .logo:hover {
+    transform: scale(1.03)
 }
 
 header .logo i {
@@ -159,12 +165,14 @@ header .navbar a:hover {
 }
 
 @keyframes float {
+
     0%,
     100% {
         transform: translateY(0rem);
     }
+
     50% {
-        transform: translateY(3rem);
+        transform: translateY(5rem);
     }
 }
 
@@ -232,10 +240,12 @@ header .navbar a:hover {
 
 .speciality .box-container .box:hover .image {
     top: 0;
+    transition: all 0.6s ease-in-out;
 }
 
 .speciality .box-container .box:hover .content {
     transform: translateY(100%);
+    transition: all 0.6s ease-in-out;
 }
 
 
@@ -538,7 +548,7 @@ h3 span {
     top: 0;
     right: 0;
     z-index: 10000;
-    background: #fff;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -558,9 +568,11 @@ h3 span {
     html {
         font-size: 45%;
     }
+
     header {
         padding: 2rem;
     }
+
     Section {
         padding: 2rem;
     }
@@ -570,6 +582,7 @@ h3 span {
     #menu-bar {
         display: initial;
     }
+
     header .navbar {
         position: absolute;
         top: 100%;
@@ -579,9 +592,11 @@ h3 span {
         border-top: 0.1rem solid rgba(0, 0, 0, 1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
+
     header .navbar.active {
         clip-path: inherit;
     }
+
     header .navbar a {
         margin: 1.5rem;
         padding: 1.5rem;
@@ -596,6 +611,7 @@ h3 span {
     html {
         font-size: 30%;
     }
+
     .order .row form .inputBox input {
         width: 100%;
     }
