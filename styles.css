@@ -612,6 +612,14 @@ h3 span {
         font-size: 30%;
     }
 
+    header {
+        height: 70px;
+    }
+
+    .home {
+        padding-top: 7.5rem;
+    }
+
     .order .row form .inputBox input {
         width: 100%;
     }
